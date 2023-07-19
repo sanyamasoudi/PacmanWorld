@@ -43,7 +43,7 @@
 ## DFS and BFS implementation 
 The idea is to check the node if has been visited before.Then you push it to visited list and check if we reached goalState - if not expand children based on algorithm.
 ### Depth-First Search (DFS)
-<p>Implemented the depth-first search (DFS) algorithm in the depthFirstSearch function in `search.py`.</p>
+Implemented the depth-first search (DFS) algorithm in the depthFirstSearch function in `search.py`.<br>
 ```
 python pacman.py -l tinyMaze -p SearchAgent
 python pacman.py -l mediumMaze -p SearchAgent
@@ -51,7 +51,7 @@ python pacman.py -l bigMaze -z .5 -p SearchAgent
 ```
 
 ### Breadth-First Search (BFS)
-<p>Implemented the breadth-first search (BFS) algorithm in the breadthFirstSearch function in `search.py`.</p>
+Implemented the breadth-first search (BFS) algorithm in the breadthFirstSearch function in `search.py`.<br>
 ```
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
